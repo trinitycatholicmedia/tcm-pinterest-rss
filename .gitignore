@@ -96,7 +96,7 @@ poetry.lock
 .vscode/
 
 # RSS feed output
-rss.xml
+# rss.xml
 
 # System files
 .DS_Store
