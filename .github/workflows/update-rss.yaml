@@ -13,7 +13,7 @@ jobs:
         with:
           python-version: '3.x'
       - name: Install dependencies
-        run: pip install lxml
+        run: pip install lxml beautifulsoup4
       - name: Generate RSS Feed
         run: python generate_rss.py
       - name: Commit RSS Feed
